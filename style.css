@@ -1,7 +1,4 @@
-body {
-	background-color: teal;
+.container {
+	padding-top: 25px;
 }
 
-h1 {
-	color: orange;
-}

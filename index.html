@@ -2,15 +2,34 @@
 <html>
 <head>
 	<title>Marta Map</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
-	<p>This is a paragraph</p>
-	<h1>A MORE BIGGER PARAGRAPH</h1>
-	
+	<div class="container">
+		<h2>Marta Schedule</h2>
+
+		<table class="table">
+  			<thead>
+			    <tr>
+			      <th scope="col">#</th>
+			      <th scope="col">Train Number</th>
+			      <th scope="col">Train Direction</th>
+			      <th scope="col">Next Station</th>
+			      <th scope="col">Arrival Time</th>
+			      <th scope="col">Final Station</th>
+			    </tr>
+  			</thead>
+  			<!-- Add marta data to the table body below -->
+			<tbody id="targetbody"></tbody>
+		</table>
+		<div class="testing"></div>	
+	</div>
 
 
-<script type="text/javascript" scr="script.js"></script>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
